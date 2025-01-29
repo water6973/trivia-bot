@@ -1,16 +1,13 @@
 """
-Module providing game-related classes.
+HotOrColdGolf - A history golf game by Gavin An!
+(some might call it clubbing, i don't know their names but there are some people, ive seen them)
 
-So far, only one class is available:
-
-- WordGuessingGame: Implements a word-guessing game
-
+(This game is absolute doodoo by the way)
 """
 
 from enum import Enum
 from random import randint
 from random import choice
-import string
 
 class Temp(Enum):
     CORRECT = 0
@@ -209,8 +206,7 @@ class HotOrColdGolf:
     years away, but plus or minus two hundred years.
 
     Each guess, the game tells them how "hot" or "cold" they are from
-    the target; it also tells them where they using golf metaphors
-    ("on the green", "on the fairway", etc).
+    the target.
 
     Each hole has a par, and some intervals are bunkers (the Black Death,
     World Wars, etc) that make it hard to get out of once you're in them.
